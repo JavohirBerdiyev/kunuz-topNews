@@ -22,6 +22,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.row {
+  margin: 0;
+}
+
+.row > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .container {
   padding-left: 20px;
@@ -35,4 +43,12 @@ img {
   .container {
     width: 1140px;
   }
+}
+
+.top-news__col {
+  margin-bottom: 15px;
+}
+
+.small-news__heading {
+  font-size: 12px;
 }
